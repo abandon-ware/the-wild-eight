@@ -1,0 +1,72 @@
+Commands:
+navmesh <On/Off> - turn LocalNavMeshBuilder on Player
+blizzard <On/Off> - changes current weather to Blizzard for 20 seconds
+cct - completes current quest task
+ct <dependency> <id> - completes task <dependency> <id>
+creature <id> [count=1] - add [count] <id> creatures around the player creature <pathf> [value]
+debug [log|warning|assert|error|exception] - toggles logs of selected level in this console
+effect <add|finish> <id> - add or finish effect <id>
+experience <value> - add value to all experience
+fps - switch fps display on or off
+tgm - toggle God mode
+help - displays this text
+hide - hide the player from creatures
+item <id> - add item <id>
+kill <all|id> - kill all or <id> creatures around player
+map [isColor=false] - open all tiles of the map and can fill by color
+mapping [action] - displays information about current controller mapping
+master [info|log|parse] <uid> - display information about an object by <uid>
+near [radius] - display a list of objects near the player in a radius
+pool [on|off] - display the current status of the object pool, or change it
+questitem <id> - add quest item <id> 
+regen - restore Health, Cold, Hunger
+respawn - launch respawn on all tiles 
+return - return the player to the start tile
+save [fail] - forces autosave game. With fail parameter switches on and off emulate fail more for all save operations
+show - show the player to the creatures
+skill <all|clear|id> - learn all skills or clear learned or learn skill <id>
+slave [info|log] <uid> - display infomation about an object by uid
+speech <text> - makes the player say <text> 
+stat <health|speed|damage> <value> - add vaule to stat
+teleport <di> <dj> - move to player <di> <dj> tiles from current position
+think <text> - show mind with <text>
+tile <id> - move the player to tile <id>
+timescale - display or change current timescale
+clearAchivements - clears all steam achievements
+woodstone - add 240 wood and 240 stone
+tgraph - toggle showing AI navigation graph
+setpos <x> <y> <z> - move player to point (<x>, <y>, <z>)
+dmsct - Domesticate nearest animal (radius=10m)
+build <id> - for buildings testing
+dinfo <uid> - print debug info of object with <uid>
+dsettings - display or change debug settings
+qvt <event> [<value>] - pass event to quest system
+nett <UID|"all"> - disable or enable debugging net transform at UID or ALL new created objects 
+dd <UID\all|Behaviours names (if needed)> - disable or enable debugging netBehaviours at UID or ALL new created objects. Registers do not matter.
+flush - flushes the new create and destroy queue
+resurrect <UID> - resurrect player with <UID>. If there is no <UID> - Respawns local player
+limit <destroy|create> <limit> - set the limit of current queue. Accept with no args to see current values
+standing - repair tile command
+hub <MaxDays> <value> - change <value> 
+break <itemType> <percent> - break item in equipment by a specified amount in percent of max HP
+sin - Sinoko's Utility 
+tame <wolf|deer> - create and tame a new creature current Type
+debugui - toggle Debug UI
+record enable <category/all>
+record disable <categoty/all>
+record show <uid> [<categoty>]
+door - pass find key events to quest system
+opentiles <radius> - open tiles in radius
+days <count> - fast-forward days <count>
+ui <on/off> - hide/shows ui
+oldterminalstate <terminalUID> <terminalState> - changes terminal state
+w - all shit for wendigoQuest 
+state normal - set player to a normal state
+newterminalstate <terminalUID> <terminalState> - changes terminal state
+camerabinding <me/off/[UID]> - changes the camera binding object
+tinkering <on/off> - enables/disables tinkering animation
+blueprints - adds all blueprints
+remote - list all remote players
+transform <on/off> - enables/disables all root transforms
+chingiale volante <on/off> - fa decollare il maiale
+ending <1/2/3/4> - starts ending 
